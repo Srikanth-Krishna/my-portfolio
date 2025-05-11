@@ -8,7 +8,7 @@ const projectsData = [
     codeLink: 'https://github.com/yourusername/portfolio',
   },
   {
-    title: 'Todo App',
+    title: 'To-do List App',
     description:
       'A fully functional Todo application with local storage, filtering, and task management.',
     tech: ['HTML', 'CSS', 'JavaScript'],
@@ -16,10 +16,18 @@ const projectsData = [
     codeLink: 'https://github.com/yourusername/todo-app',
   },
   {
-    title: 'Weather Dashboard',
+    title: 'Quiz App',
     description:
-      'A weather app using OpenWeatherMap API, showing real-time weather and forecasts.',
-    tech: ['React', 'API', 'Tailwind'],
+      'A simple quiz app using timers, effects, questions and answers.',
+    tech: ['React', 'HTML', 'CSS'],
+    demoLink: 'https://weather-dash.com',
+    codeLink: 'https://github.com/yourusername/weather-dashboard',
+  },
+  {
+    title: 'Nearby explorer',
+    description:
+      'A functional project which uses API and geolocation to pull places from a dummy backend and determine and display sorted places according to current location',
+    tech: ['React', 'API', 'Fetch'],
     demoLink: 'https://weather-dash.com',
     codeLink: 'https://github.com/yourusername/weather-dashboard',
   },
