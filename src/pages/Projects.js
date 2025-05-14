@@ -12,24 +12,24 @@ const projectsData = [
     description:
       'A fully functional Todo application with local storage, filtering, and task management.',
     tech: ['HTML', 'CSS', 'JavaScript'],
-    demoLink: 'https://your-todo-app.com',
-    codeLink: 'https://github.com/yourusername/todo-app',
+    demoLink: 'https://todo-c49daa.netlify.app/',
+    codeLink: 'https://github.com/Srikanth-Krishna/todo-list',
   },
   {
     title: 'Quiz App',
     description:
       'A simple quiz app using timers, effects, questions and answers.',
     tech: ['React', 'HTML', 'CSS'],
-    demoLink: 'https://weather-dash.com',
-    codeLink: 'https://github.com/yourusername/weather-dashboard',
+    demoLink: 'https://react-quiz-13052025.netlify.app/',
+    codeLink: 'https://github.com/Srikanth-Krishna/react-quiz',
   },
   {
     title: 'Nearby explorer',
     description:
-      'A functional project which uses API and geolocation to pull places from a dummy backend and determine and display sorted places according to current location',
+      'A functional project which uses API and geolocation using a backend.',
     tech: ['React', 'API', 'Fetch'],
-    demoLink: 'https://weather-dash.com',
-    codeLink: 'https://github.com/yourusername/weather-dashboard',
+    demoLink: 'https://nearby-explorer.netlify.app/',
+    codeLink: 'https://github.com/Srikanth-Krishna/nearby-explorer',
   },
 ];
 

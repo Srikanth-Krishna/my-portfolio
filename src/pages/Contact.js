@@ -1,4 +1,4 @@
-import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 export default function ContactPage() {
   function handleSubmit() {
@@ -39,6 +39,14 @@ export default function ContactPage() {
           aria-label='LinkedIn'
         >
           <FaLinkedin />
+        </a>
+        <a
+          href='https://www.instagram.com/srikanth.krishnaa/'
+          target='_blank'
+          rel='noopener noreferrer'
+          aria-label='Instagram'
+        >
+          <FaInstagram />
         </a>
       </div>
     </section>
