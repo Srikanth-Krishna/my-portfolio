@@ -5,7 +5,7 @@ const projectsData = [
       'A personal portfolio to showcase my projects and skills. Built with React and styled using modern CSS.',
     tech: ['React', 'CSS', 'Vite'],
     demoLink: 'https://sk-portfolioo.netlify.app/',
-    codeLink: 'https://github.com/yourusername/portfolio',
+    codeLink: 'https://github.com/Srikanth-Krishna/my-portfolio',
   },
   {
     title: 'To-do List App',
