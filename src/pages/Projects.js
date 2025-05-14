@@ -4,7 +4,7 @@ const projectsData = [
     description:
       'A personal portfolio to showcase my projects and skills. Built with React and styled using modern CSS.',
     tech: ['React', 'CSS', 'Vite'],
-    demoLink: 'https://your-portfolio-link.com',
+    demoLink: 'https://sk-portfolioo.netlify.app/',
     codeLink: 'https://github.com/yourusername/portfolio',
   },
   {
