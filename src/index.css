@@ -214,6 +214,10 @@ section {
   font-weight: 500;
 }
 
+.project-links {
+  display: flex;
+}
+
 .project-links a {
   display: inline-block;
   text-decoration: none;
@@ -455,6 +459,10 @@ section {
 /* Media queries */
 
 @media (max-width: 768px) {
+  .project-links a {
+    font-size: 0.8rem;
+  }
+
   .skills-dark-grid {
     grid-template-columns: auto auto;
   }
