@@ -1,25 +1,45 @@
+import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 export default function MainNavigation() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
-    <header>
+    <header className='main-header'>
       <div className='logo'>SK</div>
-      <nav>
+      <button
+        className='menu-toggle'
+        onClick={() => setMenuOpen((prev) => !prev)}
+        aria-label='Toggle navigation'
+      >
+        ☰
+      </button>
+      <nav className={`nav ${menuOpen ? 'open' : ''}`}>
         <ul>
           <li>
-            <NavLink to='/'>Home</NavLink>
+            <NavLink to='/' onClick={() => setMenuOpen(false)}>
+              Home
+            </NavLink>
           </li>
           <li>
-            <NavLink to='/about'>About</NavLink>
+            <NavLink to='/about' onClick={() => setMenuOpen(false)}>
+              About
+            </NavLink>
           </li>
           <li>
-            <NavLink to='/skills'>Skills</NavLink>
+            <NavLink to='/skills' onClick={() => setMenuOpen(false)}>
+              Skills
+            </NavLink>
           </li>
           <li>
-            <NavLink to='/projects'>Projects</NavLink>
+            <NavLink to='/projects' onClick={() => setMenuOpen(false)}>
+              Projects
+            </NavLink>
           </li>
           <li>
-            <NavLink to='/contact'>Contact</NavLink>
+            <NavLink to='/contact' onClick={() => setMenuOpen(false)}>
+              Contact
+            </NavLink>
           </li>
         </ul>
       </nav>
