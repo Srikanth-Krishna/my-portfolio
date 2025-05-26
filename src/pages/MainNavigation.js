@@ -4,6 +4,10 @@ import { NavLink } from 'react-router-dom';
 export default function MainNavigation() {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  function handleClick() {
+    setMenuOpen(false);
+  }
+
   return (
     <header className='main-header'>
       <div className='logo'>SK</div>
@@ -17,27 +21,27 @@ export default function MainNavigation() {
       <nav className={`nav ${menuOpen ? 'open' : ''}`}>
         <ul>
           <li>
-            <NavLink to='/' onClick={() => setMenuOpen(false)}>
+            <NavLink to='/' onClick={handleClick}>
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink to='/about' onClick={() => setMenuOpen(false)}>
+            <NavLink to='/about' onClick={handleClick}>
               About
             </NavLink>
           </li>
           <li>
-            <NavLink to='/skills' onClick={() => setMenuOpen(false)}>
+            <NavLink to='/skills' onClick={handleClick}>
               Skills
             </NavLink>
           </li>
           <li>
-            <NavLink to='/projects' onClick={() => setMenuOpen(false)}>
+            <NavLink to='/projects' onClick={handleClick}>
               Projects
             </NavLink>
           </li>
           <li>
-            <NavLink to='/contact' onClick={() => setMenuOpen(false)}>
+            <NavLink to='/contact' onClick={handleClick}>
               Contact
             </NavLink>
           </li>
