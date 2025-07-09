@@ -24,12 +24,11 @@ const projectsData = [
     codeLink: 'https://github.com/Srikanth-Krishna/react-quiz',
   },
   {
-    title: 'Nearby explorer',
-    description:
-      'A functional project which uses API and geolocation using a backend.',
-    tech: ['React', 'API', 'Fetch'],
-    demoLink: 'https://nearby-explorer.netlify.app/',
-    codeLink: 'https://github.com/Srikanth-Krishna/nearby-explorer',
+    title: 'Dashboard',
+    description: 'Responsive Dashboard for eCommerce website and much more.',
+    tech: ['React', 'API', 'Ant Design', 'React Router'],
+    demoLink: 'https://sk-dashboardd.netlify.app/',
+    codeLink: 'https://github.com/Srikanth-Krishna/dashboard',
   },
 ];
 
