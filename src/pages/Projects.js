@@ -1,5 +1,20 @@
 const projectsData = [
   {
+    title: 'Dashboard',
+    description: 'Responsive Dashboard for eCommerce website and much more.',
+    tech: ['React', 'API', 'Ant Design', 'React Router'],
+    demoLink: 'https://sk-dashboardd.netlify.app/',
+    codeLink: 'https://github.com/Srikanth-Krishna/dashboard',
+  },
+  {
+    title: 'Developer Insight',
+    description:
+      'A simple Developer Dashboard app with functionalities such as Github stats, Pomodoro timer and task manager.',
+    tech: ['React', 'MUI', 'API', 'React Context API'],
+    demoLink: 'https://sk-devinsight.netlify.app/',
+    codeLink: 'https://github.com/Srikanth-Krishna/devinsight',
+  },
+  {
     title: 'Portfolio Website',
     description:
       'A personal portfolio to showcase my projects and skills. Built with React and styled using modern CSS.',
@@ -14,21 +29,6 @@ const projectsData = [
     tech: ['HTML', 'CSS', 'JavaScript'],
     demoLink: 'https://todo-c49daa.netlify.app/',
     codeLink: 'https://github.com/Srikanth-Krishna/todo-list',
-  },
-  {
-    title: 'Quiz App',
-    description:
-      'A simple quiz app using timers, effects, questions and answers.',
-    tech: ['React', 'HTML', 'CSS'],
-    demoLink: 'https://react-quiz-13052025.netlify.app/',
-    codeLink: 'https://github.com/Srikanth-Krishna/react-quiz',
-  },
-  {
-    title: 'Dashboard',
-    description: 'Responsive Dashboard for eCommerce website and much more.',
-    tech: ['React', 'API', 'Ant Design', 'React Router'],
-    demoLink: 'https://sk-dashboardd.netlify.app/',
-    codeLink: 'https://github.com/Srikanth-Krishna/dashboard',
   },
 ];
 
