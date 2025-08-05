@@ -2,8 +2,8 @@ import { FaEnvelope, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 export default function ContactPage() {
   function handleSubmit(e) {
-    e.preventdefault();
-    alert('Message Sent!');
+    e.preventDefault();
+    e.target.submit();
   }
 
   return (
@@ -17,14 +17,20 @@ export default function ContactPage() {
         className='contact-form-dark'
         name='contact'
         data-netlify='true'
-        onSubmit='submit'
+        data-netlify-honeypot='bot-field'
+        onSubmit={handleSubmit}
       >
+        <input type='hidden' name='form-name' value='contact' />
+        <p hidden>
+          <label>
+            Don't fill this out if you're human:
+            <input name='bot-field' />
+          </label>
+        </p>
         <input type='text' name='name' placeholder='Your Name' required />
         <input type='email' name='email' placeholder='Your Email' required />
         <textarea name='message' rows='6' placeholder='Your Message' required />
-        <button onSubmit={handleSubmit} type='submit'>
-          Send Message
-        </button>
+        <button type='submit'>Send Message</button>
       </form>
       <div className='contact-icons-dark'>
         <a href='mailto:srikanth.krishna1398@gmail.com' aria-label='Email'>
