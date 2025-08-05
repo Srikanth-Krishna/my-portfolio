@@ -16,6 +16,7 @@ export default function ContactPage() {
       <form
         className='contact-form-dark'
         name='contact'
+        method='POST'
         data-netlify='true'
         data-netlify-honeypot='bot-field'
         onSubmit={handleSubmit}
