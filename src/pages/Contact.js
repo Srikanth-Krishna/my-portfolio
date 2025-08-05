@@ -12,7 +12,7 @@ export default function ContactPage() {
         Interested in working together or just want to say hi? Drop me a message
         below.
       </p>
-      <form className='contact-form-dark'>
+      <form className='contact-form-dark' name='contact' netlify>
         <input type='text' name='name' placeholder='Your Name' required />
         <input type='email' name='email' placeholder='Your Email' required />
         <textarea name='message' rows='6' placeholder='Your Message' required />
