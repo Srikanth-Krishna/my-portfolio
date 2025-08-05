@@ -1,18 +1,18 @@
 const projectsData = [
   {
-    title: 'Dashboard',
-    description: 'Responsive Dashboard for eCommerce website and much more.',
-    tech: ['React', 'API', 'Ant Design', 'React Router'],
-    demoLink: 'https://sk-dashboardd.netlify.app/',
-    codeLink: 'https://github.com/Srikanth-Krishna/dashboard',
-  },
-  {
     title: 'Developer Insight',
     description:
       'A simple Developer Dashboard app with functionalities such as Github stats, Pomodoro timer and task manager.',
     tech: ['React', 'MUI', 'API', 'React Context API'],
     demoLink: 'https://sk-devinsight.netlify.app/',
     codeLink: 'https://github.com/Srikanth-Krishna/devinsight',
+  },
+  {
+    title: 'Dashboard',
+    description: 'Responsive Dashboard for eCommerce website and much more.',
+    tech: ['React', 'API', 'Ant Design', 'React Router'],
+    demoLink: 'https://sk-dashboardd.netlify.app/',
+    codeLink: 'https://github.com/Srikanth-Krishna/dashboard',
   },
   {
     title: 'Portfolio Website',

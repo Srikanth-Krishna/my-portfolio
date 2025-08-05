@@ -10,10 +10,11 @@ export default function AboutPage() {
         <div className='about-content'>
           <div className='about-text'>
             <p>
-              I'm a <strong>Frontend Developer</strong> with a passion for
-              creating elegant, responsive, and user-centric web applications. I
-              enjoy transforming complex problems into intuitive user
-              interfaces.
+              I'm a <strong>Frontend Developer</strong> with 1.5 years of
+              professional experience at IBM and a strong foundation in
+              React.js, Redux and responsive UI development. I build clean,
+              scalable and performant web apps and enjoy solving problems with
+              design and code.
             </p>
             <p>
               I specialize in <strong>HTML</strong>, <strong>CSS</strong>,{' '}
