@@ -51,7 +51,14 @@ export default function MainNavigation() {
             </li>
           </ul>
         </nav>
-        <button className='resume-btn'>Resume</button>
+        <a
+          href='/Srikanth-Resume-1.pdf'
+          download
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <button className='resume-btn'>Resume</button>
+        </a>
       </div>
     </header>
   );
